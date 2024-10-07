@@ -1,12 +1,72 @@
-#top{
+
+.top{
     background-color: lightgrey;
-    border: 2px solid red;
+    border: 5px solid red;
     min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 20px;
 }
 
-h1{
+.middle{
+    background-color: grey;
+    border: 2px solid  orange;
+    min-height: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#soo{
+    text-align: center;
+    background-color: pink;
+    border: 2px solid black;
+    min-height: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width:49%;
+}
+
+#suu{
+    background-color: yellow;
+    border: 2px solid black;
+    min-height: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width:49%;
+    text-align: center;
+}
+
+.bottom{
+    background-color: grey;
+    border: 2px solid  yellow;
+    min-height: 260px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 20px;
+}
+#saa{
+    padding-left: 60px;
+    padding-right: 60px;
     background-color: cyan;
     border: 2px solid black;
-    text-align: center;
+    min-height: 30px;
+}
+
+
+#siii{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: cyan;
+    border: 2px solid black;
     min-height: 30px;
 }
